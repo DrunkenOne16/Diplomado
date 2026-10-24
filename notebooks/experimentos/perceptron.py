@@ -106,3 +106,6 @@ y_xor = np.array([0, 1, 1, 0])
 perceptron_xor = PerceptronVisual(learning_rate=1.0, epochs=6)
 print("\nEjecutando visualización para COMPUERTA XOR...")
 perceptron_xor.train_and_plot(X, y_xor, "Compuerta XOR (No Linealmente Separable)")
+
+
+
